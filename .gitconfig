@@ -1,0 +1,6 @@
+[user]
+    name = steffenpedersen
+    email = steffen.pedersen@live.dk
+
+[core]
+  excludesfile = ~/.gitignore_global
