@@ -21,3 +21,20 @@ function dev-goals-video() {
       print "Please define a device"
   fi
 }
+
+function dev-goals-commit() {
+  if [ $1 = mac ]; then
+      cd $HOME/Dropbox/Web/Git/dev-goals
+  elif [ $1 = linux ]; then
+      cd $HOME/Sites/WWW/dev-goals
+  else
+      print "Please define a device"
+      break
+  fi
+
+  git checkout master
+  git add .
+  git commit -m "$2"
+  git push origin master
+  open http://github.com/steffenpedersen/dev-goals
+}
