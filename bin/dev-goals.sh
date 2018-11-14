@@ -1,12 +1,15 @@
 #!/bin/bash
 
+mac=$HOME/Dropbox/Web/Git/dev-goals
+linux=$HOME/Sites/WWW/dev-goals
+
 function dev-goals-add() {
   if [ $# -eq 0 ]; then
       print "Please add something (dev-goals mac video)"
   elif [ $1 = mac ]; then
-      vim $HOME/Dropbox/Web/Git/dev-goals/lists/"$2"s.md
+      vim ${mac}/lists/"$2"s.md
   elif [ $1 = linux ]; then
-      vim $HOME/Sites/WWW/dev-goals/lists/"$2"s.md
+      vim ${linux}/lists/"$2"s.md
   else
       print "Please define a device"
   fi
@@ -14,9 +17,9 @@ function dev-goals-add() {
 
 function dev-goals-video() {
   if [ $1 = mac ]; then
-      vim $HOME/Dropbox/Web/Git/dev-goals/lists/videos.md
+      vim ${mac}/lists/videos.md
   elif [ $1 = linux ]; then
-      vim $HOME/Sites/WWW/dev-goals/lists/videos.md
+      vim ${linux}/lists/videos.md
   else
       print "Please define a device"
   fi
@@ -24,9 +27,9 @@ function dev-goals-video() {
 
 function dev-goals-commit() {
   if [ $1 = mac ]; then
-      cd $HOME/Dropbox/Web/Git/dev-goals
+      cd ${mac}
   elif [ $1 = linux ]; then
-      cd $HOME/Sites/WWW/dev-goals
+      cd ${linux}
   else
       print "Please define a device"
       break
