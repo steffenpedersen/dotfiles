@@ -18,6 +18,7 @@ ln -sf "$DOTFILES_DIR/.zsh_aliases" ~
 
 function npm-install() {
     npm install -g \
+        sass \
 		terminal-image-cli \
         uglify-js \
         uglifycss \
