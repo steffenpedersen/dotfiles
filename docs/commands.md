@@ -13,3 +13,10 @@ Open an application (OS X):
 ````bash
 open -a IntelliJ\ IDEA
 ````
+
+Check git configurations:
+
+```bash
+git config --edit
+git config --global --edit
+```
