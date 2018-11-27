@@ -3,4 +3,6 @@
     email = steffen.pedersen@live.dk
 
 [core]
-  excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global
+	autocrlf = input
+	safecrlf = true
