@@ -4,6 +4,10 @@
 # SOURCE
 ####################
 
+ZSH_CUSTOM=$HOME/.oh-my-zsh/custom
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting
+
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 ln -sf "$DOTFILES_DIR/.gitconfig" ~
