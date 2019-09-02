@@ -23,6 +23,7 @@ ln -sf "$DOTFILES_DIR/.vimrc" ~
 
 function npm-install() {
     npm install -g \
+        diff-so-fancy \
         sass \
 		terminal-image-cli \
         uglify-js \
