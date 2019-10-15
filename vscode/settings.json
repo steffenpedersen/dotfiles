@@ -1,0 +1,9 @@
+{
+  "vscode_custom_css.imports": [
+    "file:///home/steffen/Dotfiles/vscode/synthwave84.css"
+    ],
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Material Theme Darker",
+    "editor.fontSize": 15
+}
