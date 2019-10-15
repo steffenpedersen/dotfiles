@@ -16,3 +16,7 @@ nvm install node
 ````bash
 ./install.sh
 ````
+
+### Install Visual Studio Code
+
+Check the README.md in `/vscode`.
