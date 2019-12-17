@@ -23,6 +23,7 @@ ln -sf "$DOTFILES_DIR/.vimrc" ~
 
 function npm-install() {
     npm install -g \
+        @vue/cli \
         diff-so-fancy \
         sass \
 		terminal-image-cli \
