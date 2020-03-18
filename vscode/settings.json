@@ -1,12 +1,10 @@
 {
-  "vscode_custom_css.imports": [
-    "file:///home/steffen/Dotfiles/vscode/synthwave84.css"
-    ],
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Material Theme Darker",
+    "workbench.colorTheme": "Nord",
     "editor.fontSize": 15,
     "workbench.statusBar.visible": false,
     "emmet.triggerExpansionOnTab": true,
-    "workbench.tree.indent": 20
+    "workbench.tree.indent": 20,
+    "vsicons.dontShowNewVersionMessage": true
 }
