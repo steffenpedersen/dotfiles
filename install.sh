@@ -18,29 +18,7 @@ ln -sf "$DOTFILES_DIR/.zsh_aliases" ~
 ln -sf "$DOTFILES_DIR/.vimrc" ~
 
 ####################
-# NPM
+# NYANCAT ANIMATION
 ####################
 
-function npm-install() {
-    npm install -g \
-        @vue/cli \
-        diff-so-fancy \
-        sass \
-		terminal-image-cli \
-        uglify-js \
-        uglifycss \
-        webpack \
-        webpack-cli
-}
-
-npm-install
-
-####################
-# VIM
-####################
-
-function vimrc-install() {
-    git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-    sh ~/.vim_runtime/install_awesome_vimrc.sh
-}
-
+git clone https://github.com/klange/nyancat.git $DOTFILES_DIR/bin/nyancat-animation
