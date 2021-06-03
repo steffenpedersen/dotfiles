@@ -3,4 +3,7 @@
 node_modules
 .bloop
 .metals
+project/metals.sbt
 .vscode
+.env*
+__pycache__/
