@@ -1,5 +1,5 @@
 # Setting $PATH
-export PATH=$HOME/bin:/usr/local/bin:$HOME/Dotfiles/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/Dotfiles/bin:/opt/apache-maven-3.6.3/bin:$PATH
 
 # Path to the oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -31,3 +31,13 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.zsh_exports
 source $HOME/.zsh_aliases
 source $HOME/Dotfiles/bin/*
+
+M2_HOME="/opt/apache-maven-3.6.3"
+JAVA_HOME="/usr/lib/jvm/java-11-amazon-corretto"
+
+# Enable rainbow 
+export CLICOLOR=1
+export LSCOLORS=gx
+
+alias l='ls | lolcat' 
+alias la='ls -la | lolcat'
