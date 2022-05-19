@@ -16,9 +16,3 @@ ln -sf "$DOTFILES_DIR/.zshrc" ~
 ln -sf "$DOTFILES_DIR/.zsh_exports" ~
 ln -sf "$DOTFILES_DIR/.zsh_aliases" ~
 ln -sf "$DOTFILES_DIR/.vimrc" ~
-
-####################
-# NYANCAT ANIMATION
-####################
-
-git clone https://github.com/klange/nyancat.git $DOTFILES_DIR/bin/nyancat-animation

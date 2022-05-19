@@ -1,4 +1,3 @@
 alias open-chrome=open -a "Google Chrome"
 alias open-vscode=code -n .
-alias nyancat-animation=~/./Dotfiles/bin/nyancat-animation/src/nyancat
 alias update-everything=sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean && docker system prune -a && sudo snap refresh && docker system prune --all --volumes --force
