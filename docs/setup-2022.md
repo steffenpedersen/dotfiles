@@ -1,6 +1,7 @@
 # Setup
 
 - Edit settings for resolution and trackpad
+- Add [keyboard layout](https://www.twam.info/hardware/us-international-on-os-x)
 - Download Chrome
 - Install password manager
 - Download iTerm2
