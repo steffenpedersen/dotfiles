@@ -19,3 +19,4 @@
 - Download VS Code and login
 - Download Spotify
 - Download Slack
+- Download Quicksilver
