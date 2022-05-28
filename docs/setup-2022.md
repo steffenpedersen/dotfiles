@@ -2,6 +2,7 @@
 
 - Edit settings for resolution and trackpad
 - Add [keyboard layout](https://www.twam.info/hardware/us-international-on-os-x)
+- Swap [command and control keys](https://apple.stackexchange.com/questions/32297/how-can-i-reassign-the-copy-paste-keyboard-shortcuts)
 - Download Chrome
 - Install password manager
 - Download iTerm2
@@ -19,4 +20,6 @@
 - Download VS Code and login
 - Download Spotify
 - Download Slack
-- Download Quicksilver
+- Download Quicksilver and copy triggers from `Dotfiles` to `/Library/Application Support/Quicksilver/Triggers.plist`
+
+> `ctrl` + `up arrow`
